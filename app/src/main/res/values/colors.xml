@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#2196F3</color>  <!-- mavi örnek -->
+    <color name="gray">#9E9E9E</color>
+    <color name="mavi">#2196F3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="purple_500">#03DAC5</color>
+    <color name="teal_700">#03DAC5</color>
+    <color name="colorPrimary">#3F51B5</color>       <!-- Mavi -->
+    <color name="colorPrimaryVariant">#303F9F</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="primary_color">#6200EE</color>
+    <color name="secondary_color">#03DAC5</color>
+
+
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+</resources>

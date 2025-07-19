@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">FitNest</string>
+    <string-array name="gender_array">
+        <item>Erkek</item>
+        <item>Kadın</item>
+    </string-array>
+    <string name="title_activity_diyetisyen_maps">DiyetisyenMapsActivity</string>
+    <string-array name="activity_types">
+        <item>Yürüyüş</item>
+        <item>Koşu</item>
+        <item>Fitness</item>
+        <item>Yoga</item>
+        <item>Bisiklet</item>
+        <item>Diğer</item>
+    </string-array>
+    <string-array name="workout_plans">
+        <item>Haftalık Yürüyüş Planı</item>
+        <item>Evde Kardiyo</item>
+        <item>Yoga ve Esneme</item>
+        <item>Kas Güçlendirme</item>
+    </string-array>
+    <string-array name="hatirlatici">
+        <item>Hastane</item>
+        <item>Diyetisyen</item>
+        <item>Eczane</item>
+        <item>GYM</item>
+        <item>Diğer</item>
+    </string-array>
+    <string name="bmi_araliklari">
+• Zayıf: &lt; 18.5
+• Normal: 18.5 - 24.9
+• Fazla kilolu: 25 - 29.9
+• Obez: ≥ 30
+</string>
+
+    <string name="share_message">Bu harika uygulamayı indir: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

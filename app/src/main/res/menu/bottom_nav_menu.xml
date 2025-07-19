@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:enabled="true"
+
+        android:icon="@drawable/olcum"
+        android:title="Ana Sayfa" />
+
+    <item
+        android:id="@+id/nav_repice"
+        android:icon="@drawable/arti"
+        android:title="Sağlıklı Tarifler" />
+
+    <item
+        android:id="@+id/nav_ayarlar"
+        android:icon="@drawable/arti"
+        android:title="Ayarlar" />
+
+
+
+</menu>

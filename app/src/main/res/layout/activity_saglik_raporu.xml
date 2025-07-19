@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Başlık -->
+
+        <!-- BMI Kartı -->
+
+        <TextView
+            android:id="@+id/tvBaslik"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="Sağlık Raporu"
+            android:textColor="#1A237E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="298dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vücut Kitle İndeksi (BMI)"
+                    android:textColor="#3F51B5"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Kategori -->
+                <TextView
+                    android:id="@+id/tvBmiKategori"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Kategori: Normal"
+                    android:textColor="#388E3C"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <!-- Açıklama -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="BMI, vücut ağırlığınızın boy uzunluğunuzun karesine bölünmesiyle elde edilir."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <!-- Aralıklar -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/bmi_araliklari"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <!-- Değer -->
+                <TextView
+                    android:id="@+id/tvBmiSonuc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text=""
+                    android:textColor="#2E7D32"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Vücut Yağ Oranı Kartı -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="289dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vücut Yağ Oranı"
+                    android:textColor="#3F51B5"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Kategori -->
+                <TextView
+                    android:id="@+id/tvYagKategori"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Kategori: Normal"
+                    android:textColor="#388E3C"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <!-- Açıklama -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Vücut yağ oranı, vücudunuzdaki yağ kütlesinin toplam vücut ağırlığına oranıdır."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <!-- Aralıklar -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="• Erkek: %10 - %20\n• Kadın: %18 - %28"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <!-- Değer -->
+                <TextView
+                    android:id="@+id/tvYagSonuc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Sizin Yağ Oranınız: %19.5"
+                    android:textColor="#2E7D32"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

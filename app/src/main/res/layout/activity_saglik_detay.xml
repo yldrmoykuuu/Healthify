@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaglikDetayActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSaglikTakibi"
+        android:layout_width="0dp"
+        android:layout_height="643dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:paddingTop="25dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Başlık -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="Sağlık Takibi"
+                    android:src="@drawable/grafi" />
+
+                <TextView
+                    android:id="@+id/tvSaglikBaslik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="12dp"
+                    android:text="Sağlık Takibi"
+                    android:textColor="#3F51B5"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Açıklama -->
+            <TextView
+                android:id="@+id/tvSaglikAciklama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Sağlık durumunuzu takip edin" />
+
+            <!-- Su Tüketimi Grafiği -->
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chartSuTuketimi"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp" />
+
+            <!-- Su Tüketimi Açıklama -->
+            <TextView
+                android:id="@+id/tvSuOrtalama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Ortalama su tüketimi: 2.3 Litre"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <!-- Uyku Süresi Grafiği -->
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chartUyku"
+                android:layout_width="match_parent"
+                android:layout_height="217dp"
+                android:layout_marginTop="16dp" />
+
+            <!-- Uyku Açıklama -->
+            <TextView
+                android:id="@+id/tvUykuOrtalama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Ortalama uyku süresi: 7.5 saat"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
