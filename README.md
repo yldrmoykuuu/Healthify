@@ -38,17 +38,17 @@ Healthifyy, kullanıcıların sağlık ve spor aktivitelerini takip etmelerini s
 
 Ekran Görüntüleri 🖼️
 
-<img width="476" height="802" alt="login_screen" src="https://github.com/user-attachments/assets/b0fff30d-e5d7-49e6-9db6-00fd27304282" />alt="Uygulama Giriş Ekranı" />
-<img width="467" height="805" alt="login_screen2" src="https://github.com/user-attachments/assets/c0b3f54c-86ae-4fa9-9ecd-12fd2780a068" />alt="Giriş Ekranı" />
-<img width="461" height="806" alt="main_screen" src="https://github.com/user-attachments/assets/67b62b99-1e7e-48ac-9a30-3f45fc311864" />alt="Ana Sayfa " />
-<img width="472" height="808" alt="healt_screen" src="https://github.com/user-attachments/assets/da9f7a3c-0b2f-4135-8fe2-ba0094ddc9a8" />alt="Sağlık Sayfası " />
-<img width="488" height="802" alt="healt_detail_screen" src="https://github.com/user-attachments/assets/9d17be19-c0f0-4924-94c2-075fa753ff81" />alt="Sağlık Grafik Sayfası " />
-<img width="463" height="800" alt="activity_screen" src="https://github.com/user-attachments/assets/633d3fc1-3804-4884-ac3b-037402e35c84" />alt="Spor Sayfası " />
-<img width="427" height="811" alt="reminder_screen" src="https://github.com/user-attachments/assets/33a210d4-91d6-4b43-938b-00b604999e40" />alt="Hatırlatıcı Sayfası " />
-<img width="446" height="805" alt="bodyMeasurementt_screen" src="https://github.com/user-attachments/assets/b80bf7e2-d212-4df2-995c-669bfe5ec88e" />alt="Ölçüm Sayfası " /> 
-<img width="430" height="791" alt="body_screen" src="https://github.com/user-attachments/assets/de4d6146-d2c3-4a57-869b-dac88b8c5c79" />alt="Ölçüm  Grafik Sayfası " />
-<img width="480" height="807" alt="mapLocation_screen" src="https://github.com/user-attachments/assets/51c8c97e-5045-4a40-812d-d294ddac1a3d" />alt="Konum Bazlı Harita Sayfası " />
-<img width="403" height="802" alt="RepiceList_screen" src="https://github.com/user-attachments/assets/068e99e8-aaf1-4399-81f2-1eb52be83b60" />alt="Tarif Sayfası " />
+<img width="476" height="802" alt="Uygulama Giriş Ekranı" src="https://github.com/user-attachments/assets/b0fff30d-e5d7-49e6-9db6-00fd27304282" />
+<img width="467" height="805" alt="Giriş Ekranı" src="https://github.com/user-attachments/assets/c0b3f54c-86ae-4fa9-9ecd-12fd2780a068" />
+<img width="461" height="806" alt="Ana Sayfa" src="https://github.com/user-attachments/assets/67b62b99-1e7e-48ac-9a30-3f45fc311864" />
+<img width="472" height="808" alt="Sağlık Sayfası" src="https://github.com/user-attachments/assets/da9f7a3c-0b2f-4135-8fe2-ba0094ddc9a8" />
+<img width="488" height="802" alt="Sağlık Grafik Sayfası" src="https://github.com/user-attachments/assets/9d17be19-c0f0-4924-94c2-075fa753ff81" />
+<img width="463" height="800" alt="Spor Sayfası" src="https://github.com/user-attachments/assets/633d3fc1-3804-4884-ac3b-037402e35c84" />
+<img width="427" height="811" alt="Hatırlatıcı Sayfası" src="https://github.com/user-attachments/assets/33a210d4-91d6-4b43-938b-00b604999e40" />
+<img width="446" height="805" alt="Ölçüm Sayfası" src="https://github.com/user-attachments/assets/b80bf7e2-d212-4df2-995c-669bfe5ec88e" />
+<img width="430" height="791" alt="Ölçüm Grafik Sayfası" src="https://github.com/user-attachments/assets/de4d6146-d2c3-4a57-869b-dac88b8c5c79" />
+<img width="480" height="807" alt="Konum Bazlı Harita Sayfası" src="https://github.com/user-attachments/assets/51c8c97e-5045-4a40-812d-d294ddac1a3d" />
+<img width="403" height="802" alt="Tarif Sayfası" src="https://github.com/user-attachments/assets/068e99e8-aaf1-4399-81f2-1eb52be83b60" />
 
 
 
